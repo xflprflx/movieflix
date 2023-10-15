@@ -1,0 +1,62 @@
+.login-card-container {
+  background-color: #6C6C6C;
+  width: 298px;
+  height: 468px;  
+  border-radius: 4px;
+  margin: 17px 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-card-container h1 {
+  color: #FFF;
+  font-weight: 400;
+  font-size: 35px;
+  margin: 60px 60px
+  
+}
+
+.login-card-container form {
+  width: 264px;
+}
+
+input.form-control.base-input {
+  background-color:  #FFF;
+  height: 47px;
+}
+
+.login-submit {
+  background-color: #FFC700;
+  height: 50px;
+  margin-top: 54px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.login-submit .btn {
+  border: none;
+  font-size: 20px;
+  width: 100%;
+  font-weight: bold;
+}
+
+@media (min-width: 576px) {
+
+  .login-card-container {
+    width: 479px;
+    height: 516px;  
+    margin: 40px 48px;
+  }
+
+  .login-card-container h1 {
+    font-size: 48px;
+
+  }
+
+  .login-card-container form {
+    width: 384px;
+  }
+
+}

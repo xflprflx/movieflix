@@ -1,0 +1,37 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-container {
+  display: none;
+}
+
+@media(min-width: 1200px) {
+
+  .home-container {
+    align-items: center;
+  }
+
+  .banner-container {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 363px;
+    height: 460px;
+    margin-right: 148px;
+  }
+
+  .banner-container h1{
+    font-size: 48px;
+    padding-bottom: 19px;
+  }
+
+  .banner-container h3{
+    color: #F2F2F2;
+    padding-bottom: 50px;
+    font-weight: 400;
+    font-size: 22px;
+   }
+  
+}

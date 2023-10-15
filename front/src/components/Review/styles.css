@@ -1,0 +1,44 @@
+.review-component {
+
+  height: 93px;
+  padding: 10px 20px;
+}
+
+.review-component {
+ margin-top: 18px;
+}
+
+.review-component span {
+  color: #FFF;
+  font-weight: bold ;
+  font-size: 16px;
+}
+
+.review-component p {
+  margin-left: 15px;
+  color: #9E9E9E;
+  font-size: 16px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+
+.info-container img {
+  width: 13px;
+  height: 13px;
+  margin-right: 15px;
+}
+
+.text-container {
+  height: 51px;
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #E1E1E1;
+  border-radius: 5px;
+}

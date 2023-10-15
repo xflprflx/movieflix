@@ -1,0 +1,10 @@
+.list-container{
+  display: flex;
+  flex-direction: column;
+  color: #FFF;
+  padding: 41px 40px;
+}
+
+.list-container a{
+  margin-top: 20px;
+}
